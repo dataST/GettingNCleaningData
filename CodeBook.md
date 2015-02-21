@@ -1,11 +1,12 @@
 ##Code Book
-==============================================
+
 ###Data source: 
 
   * Raw data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
   * Full description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
   
-###Cleaned data: step5data.txt
+###Cleaned data: 
+  step5data.txt
   
 ###Variables:
 
