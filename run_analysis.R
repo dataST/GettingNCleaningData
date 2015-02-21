@@ -45,11 +45,11 @@ mergedData[, 2] <- activityLabels[mergedData[, 2], 2]
 colnames(mergedData)[1] <- "subject"
 colnames(mergedData)[2] <- "activity"
 
-## To make the eecond tidy data set with the average of each variable for each activity and each subject:
+## To make the second tidy data set with the average of each variable for each activity and each subject:
 
 library(plyr)
 finalData <- ddply(mergedData, .(subject, activity), function(x){colMeans(mergedData[, 3:68])})
 
-## to export the final data set from Step 5:
+## to export the final data set:
 
 write.table(finalData, "step5data.txt", row.name=FALSE)
