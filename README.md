@@ -1,2 +1,1 @@
-#2 GettingNCleaningData
-Course project
+## Getting and Cleaning Data - Course project
