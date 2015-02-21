@@ -6,7 +6,7 @@
   * Full description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
   
 ###Cleaned data: 
-    step5data.txt
+   step5data.txt
   
 ###Variables:
 
