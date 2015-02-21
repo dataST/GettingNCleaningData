@@ -9,7 +9,8 @@ The project instructions is:
     2. Extracts only the measurements on the mean and standard deviation for each measurement. 
     3. Uses descriptive activity names to name the activities in the data set
     4. Appropriately labels the data set with descriptive variable names. 
-    5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject."
+    5. From the data set in step 4, creates a second, independent tidy data set 
+        with the average of each variable for each activity and each subject."
 
 The provided raw data for the project is a compressed files and folders:
 
@@ -23,18 +24,18 @@ The R script includes the codes for the following processes to make an independe
 
 1. Reads raw files:
 
-* 'subjectTest'/'subjectTrain' from subject_test.txt/subject_train.txt - for subjects' IDs (participants)
-* 'xTest'/'xTrain' from X_test.txt/X_train.txt - for measured data
-* 'yTest'/'yTrain' from y_test.txt/y_train.txt - for activity types
-* 'features' from features.txt - for column names of the new data set
-* 'activityLabels' from activit_labels.txt - for descriptive activity names to name te activities in the new data set
+  * 'subjectTest'/'subjectTrain' from subject_test.txt/subject_train.txt - for subjects' IDs (participants)
+  * 'xTest'/'xTrain' from X_test.txt/X_train.txt - for measured data
+  * 'yTest'/'yTrain' from y_test.txt/y_train.txt - for activity types
+  * 'features' from features.txt - for column names of the new data set
+  * 'activityLabels' from activit_labels.txt - for descriptive activity names to name te activities in the new data set
 
 2. Names each column of xTest and xTrain and extract the columns of mean() and std().
 
 3. Merges columns:
-* the subject column from subjectTest/subjectTrain
-* the activity column from yTest/yTrain
-* the extracted columsn from xTest/xTrain
+  * the subject column from subjectTest/subjectTrain
+  * the activity column from yTest/yTrain
+  * the extracted columsn from xTest/xTrain
 
 4. Assigns descriptive activity names from 'activityLabels' to the column of activity names (2nd column).
 
