@@ -9,14 +9,14 @@
 
 ## to read raw data:
 
-subjectTest <- read.table("./test/subject_test.txt")
-xTest <- read.table("./test/X_test.txt")
-yTest <- read.table("./test/y_test.txt")
-subjectTrain <- read.table("./train/subject_train.txt")
-xTrain <- read.table("./train/X_train.txt")
-yTrain <- read.table("./train/y_train.txt")
-activityLabels <- read.table("./activity_labels.txt")
-features <- read.table("features.txt")
+subjectTest <- read.table("./UCI HAR Dataset/test/subject_test.txt")
+xTest <- read.table("./UCI HAR Dataset/test/X_test.txt")
+yTest <- read.table("./UCI HAR Dataset/test/y_test.txt")
+subjectTrain <- read.table("./UCI HAR Dataset/train/subject_train.txt")
+xTrain <- read.table("./UCI HAR Dataset/train/X_train.txt")
+yTrain <- read.table("./UCI HAR Dataset/train/y_train.txt")
+activityLabels <- read.table("./UCI HAR Dataset/activity_labels.txt")
+features <- read.table("./UCI HAR Dataset/features.txt")
 
 ## to name columnes before extracting the columns of mean() and std()
 
