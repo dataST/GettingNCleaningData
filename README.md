@@ -18,7 +18,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The unzipped folder 'UCI HAR Dataset' includes 2 folders, 'test' and 'train,' and 4 text files, 'activity_labels', 'features', 'features_info', and 'README.'
 
-[run-analysis.R]
+####[run-analysis.R]
 
 The R script includes the codes for the following processes to make an independent tidy data set as instructed:
 
